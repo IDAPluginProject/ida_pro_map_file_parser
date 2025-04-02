@@ -1,0 +1,48 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.vsidx
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.json
+/.vs
+/IDA_MAP_Parser/x64
+IDA_MAP_Perser/x64/Release/IDA_MAP_Perser.log
+IDA_MAP_Perser/x64/Release/IDA_MAP_Perser.Build.CppClean.log
+IDA_MAP_Perser/x64/Release/IDA_MAP_Perser.dll.recipe
+IDA_MAP_Perser/x64/Release/IDA_MAP_Perser.vcxproj.FileListAbsolute.txt
+IDA_MAP_Perser/x64/Release/microsoft/STL/std.compat.ixx.ifc.dt.module.json.command
+IDA_MAP_Perser/x64/Release/microsoft/STL/std.ixx.ifc.dt.module.json.command
+IDA_MAP_Perser/x64/Release/vcpkg.applocal.log
+x64/Release/IDA_MAP_Parser.exp
