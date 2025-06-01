@@ -4,3 +4,5 @@
 https://github.com/gmh5225/IDA-MapSymbolParser
 # works on
 IDA Pro >= 9.0
+# installation 
+the .dll should be in plugins folder of IDA(Pro) directory 

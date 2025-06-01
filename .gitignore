@@ -46,3 +46,4 @@ IDA_MAP_Perser/x64/Release/microsoft/STL/std.compat.ixx.ifc.dt.module.json.comma
 IDA_MAP_Perser/x64/Release/microsoft/STL/std.ixx.ifc.dt.module.json.command
 IDA_MAP_Perser/x64/Release/vcpkg.applocal.log
 x64/Release/IDA_MAP_Parser.exp
+/x64/Release
