@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dllmain.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -130,7 +136,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>R:\____Reverse\IDA\sdk\idasdk90\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>R:\____Reverse\IDA\sdk\idasdk91\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <LanguageStandard_C>stdclatest</LanguageStandard_C>
       <DebugInformationFormat>None</DebugInformationFormat>
@@ -142,6 +148,7 @@
       <StringPooling>true</StringPooling>
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
       <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -150,14 +157,11 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>ida.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>R:\____Reverse\IDA\sdk\idasdk90\lib\x64_win_vc_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>R:\____Reverse\IDA\sdk\idasdk91\lib\x64_win_vc_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AssemblyDebug>false</AssemblyDebug>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="dllmain.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
